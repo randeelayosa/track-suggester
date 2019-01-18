@@ -1,3 +1,20 @@
+#cssResult {
+  display: none;
+}
+#rubyResult {
+  display: none;
+}
+#phpResult {
+  display: none;
+}
+#javaResult {
+  display: none;
+}
+#csharpResult {
+  display: none;
+}
+
+
 h1 {
   text-align: center;
   text-decoration: underline;
