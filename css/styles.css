@@ -38,4 +38,10 @@ h4{
 
 .btn {
   background-color: gray;
+  margin: 30px;
+  float: right;
+}
+
+.form-control {
+  margin: 30px;
 }
