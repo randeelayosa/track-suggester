@@ -1,3 +1,13 @@
+#questionnaire {
+  margin-top: 20px;
+}
+#well-heading {
+  background-color: white;
+  border: 6px solid gray;
+  border-radius: 25px;
+  margin: 40px;
+  padding: 20px;
+}
 #cssResult {
   display: none;
 }
@@ -14,34 +24,43 @@
   display: none;
 }
 
-
+body {
+  background-color: #c97f3e;
+}
 h1 {
+  font-family: 'Fjalla One', sans-serif;
+  color: #c97f3e;
   text-align: center;
   text-decoration: underline;
+  margin: 20px;
 }
-
 h2 {
+  font-family: 'Fjalla One', sans-serif;
   text-align: center;
 }
-
 h4{
-  padding-top: 10px;
+  font-family: 'Fjalla One', sans-serif;
+    color: #c97f3e;
+  padding-top: 45px;
+}
+h6 {
+  color: white;
+  text-align: right;
 }
 
 .well {
-  background-color: lightgray;
+  background-color: white;
   border: 2px solid gray;
   border-radius: 25px;
   margin: 40px;
   padding: 20px;
 }
-
 .btn {
-  background-color: gray;
+  background-color: white;
+  color: #c97f3e;
   margin: 30px;
   float: right;
 }
-
 .form-control {
   margin: 30px;
 }

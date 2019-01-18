@@ -1,12 +1,11 @@
 $(document).ready(function() {
   $("#questionnaire").submit(function(event){
-    alert("Submit works");
     var pathOption = $("#path").val();
     var placeOption = $("#place").val();
     var companyOption = $("#company").val();
     var levelOption = $("#level").val();
     var activityOption = $("#activity").val();
-    var css = 5;
+
 
 
     if (pathOption === "1" && placeOption === "1" && companyOption === "1" && levelOption === "1" && activityOption === "1") {
@@ -23,20 +22,20 @@ $(document).ready(function() {
     }
 
 
-    if (language = 1){
-      $("#rubyResult").show();
-    } else if (language = 2){
-      $("#phpResult").show();
-    } else if (language = 3){
-      $("#javaResult").show();
-    } else if (language = 4){
-      $("#csharpResult").show();
-    } else {
-      $("#cssResult").show();
-    }
+
+    
+
+    $("#questionnaire").toggle();
+    $("#cssResult").fadeToggle();
+    $("#rubyResult").fadeToggle();
+    $("#phpResult").fadeToggle();
+    $("#javaResult").fadeToggle();
+    $("#csharpResult").fadeToggle();
 
 
-    $("#questionnaire").fadeToggle();
+
+
+
 
     // var language = $("#path").val();
     //
@@ -51,7 +50,6 @@ $(document).ready(function() {
     // }
 
 
-    alert("got to end");
     event.preventDefault();
   });
 });
