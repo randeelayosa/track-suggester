@@ -15,54 +15,59 @@
       <form id="questionnaire">
         <div id="well-heading">
           <h1><em>Are you on track?</em></h1>
+          <h5><em>A questionnaire to help you choose your coding path</em></h5>
           <p>So, you've caught the coding bug, were inspired by your older siblings watching them customize their Xanga page when you were younger, decided to change your life's course, or all of the above. The good news is that no matter what your interest or prior experience, there is a coding language and path for you.</p>
           <p>Still stuck on which way to go? Fill out this questionnaire to find the answers to the questions that have been riddling your inner dialogue.</p>
         </div>
         <h4>What sort of things do you want to be doing?</h4>
         <select class="form-control" id="path">
           <option style="display:none;"></option>
-          <option value="3">E-commerce, collect form data, generate dynamic page content, cyber security</option>
-          <option value="2">Build websites, rapid application</option>
+          <option value="10">E-commerce, collect form data, generate dynamic page content, cyber security</option>
+          <option value="1">Build websites, rapid application</option>
           <option value="1">Develop mobile applications, create large websites</option>
-          <option value="4">Develop desktop applications, database applications, XML Web services, 3D/gaming</option>
+          <option value="10">Develop desktop applications, database applications, XML Web services, 3D/gaming</option>
         </select>
         <h4>What kind of company do you want to work for?</h4>
         <select class="form-control" id="place">
           <option style="display:none;"></option>
-          <option value="3">Banks, E-Commerce</option>
-          <option value="2">Corporations, Web security</option>
+          <option value="10">Banks, E-Commerce</option>
+          <option value="1">Corporations, Web security</option>
           <option value="1">Start-Ups, Social Media</option>
-          <option value="4">Hospitals/Healthcare, Gaming</option>
+          <option value="10">Hospitals/Healthcare, Gaming</option>
         </select>
         <h4>Who do you want to work for</h4>
         <select class="form-control" id="company">
           <option style="display:none;"></option>
-          <option value="3">Instagram, Spotify, Google, Netflix</option>
-          <option value="2">Facebook, Lyft, Tesla Motors, Slack, Etsy</option>
+          <option value="10">Instagram, Spotify, Google, Netflix</option>
+          <option value="1">Facebook, Lyft, Tesla Motors, Slack, Etsy</option>
           <option value="1">AirBnB, Twitter, Hulu, Twitch, Groupon</option>
-          <option value="4">Microsoft, OpenTable</option>
+          <option value="10">Microsoft, OpenTable</option>
         </select>
         <h4>What programming level best describes you</h4>
         <select class="form-control" id="level">
           <option style="display:none;"></option>
           <option value="1">Beginner/Some Experience</option>
-          <option value="4">More Experienced/Expert</option>
+          <option value="10">More Experienced/Expert</option>
         </select>
         <h4>Which part of web developing interests you most</h4>
         <select class="form-control" id="activity">
           <option style="display:none;"></option>
           <option value="1">Layout/Design</option>
-          <option value="3">User Experience</option>
-          <option value="4">Logic, algorithms, how the code functions</option>
-          <option value="2">User Interaction</option>
+          <option value="10">User Experience</option>
+          <option value="10">Logic, algorithms, how the code functions</option>
+          <option value="1">User Interaction</option>
         </select>
         <button class="btn" type="submit" name="button">SUBMIT</button>
       </form>
 
       <div id="allResults">
+        <div id="prompt">
+          <h2>Your options evaluate to: </h2>
+        </div>
         <div id="cssResult">
           <div class="well">
             <h2>CSS/Design</h2>
+            <h5><em>You should also consider a career inFront-End Development!</em></h5>
             <p>This is what Front-end Development essentially entails. Known as client-side development, it deals with User Interactivity and is used to format and design the way users see the application content. This is the path to take if you are more inclined to align more with creativity, color, design, and imagination.</p>
             <h4>Advantages:</h4>
             <p>Maintaining an artist aspect by being responsible for implementing the look of the application into user friendly code, being able to think more of design as opposed to logic.</p>
@@ -72,9 +77,6 @@
           <div class="well">
             <h2>Ruby/Rails</h2>
             <p>Ruby was designed to be easier for coders to write and understand and follows the belief that programming languages should be as similar to human language as possible. Ruby is object-oriented and makes it easy to transform an idea into a working application. It is used widely among web startups as well as big companies. In conjunction with its Rails framework, Ruby has become more versatile and easier to use when creating web applications. It is now one of the most in-demand languages and powers sites like Twitter and Hulu.</p>
-
-            <!-- Add image or gif of coding -->
-
             <h4>Advantages:</h4>
             <p>Gives web developers a framework and structure for their code, abstracts and simplifies common repetitive tasks, has a vast collection of open source code</p>
           </div>
