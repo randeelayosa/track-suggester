@@ -1,0 +1,24 @@
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+h2 {
+  text-align: center;
+}
+
+h4{
+  padding-top: 10px;
+}
+
+.well {
+  background-color: lightgray;
+  border: 2px solid gray;
+  border-radius: 25px;
+  margin: 40px;
+  padding: 20px;
+}
+
+.btn {
+  background-color: gray;
+}
