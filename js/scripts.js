@@ -44,12 +44,14 @@ $(document).ready(function() {
       $("#answer").fadeToggle();
       $("#javaResult").fadeToggle();
       $("#csharpResult").fadeToggle();
-    } else {
+    } else if (language <= 20){
       $("#well-prompt").toggle();
       $("#answer").fadeToggle();
       $("#rubyResult").fadeToggle();
       $("#phpResult").fadeToggle();
       $("#cssResult").fadeToggle();
+    } else if (language === 0){
+      alert("Please choose an option from each menu.");
     }
 
 
