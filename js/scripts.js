@@ -7,19 +7,6 @@ $(document).ready(function() {
     var activityOption = $("#activity").val();
     var language = 0;
 
-    //
-    // if (pathOption === "1" && placeOption === "1" && companyOption === "1" && levelOption === "1" && activityOption === "1") {
-    //   language = 1;
-    // }
-    // if (pathOption === "2" && placeOption === "2" && companyOption === "2" && levelOption === "2" && activityOption === "2"){
-    //   language = 2;
-    // }
-    // if (pathOption === "3" && placeOption === "3" && companyOption === "3" && levelOption === "3" && activityOption === "3"){
-    //   language = 3;
-    // }
-    // if (pathOption === "4" && placeOption === "4" && companyOption === "4" && levelOption === "4" && activityOption === "4"){
-    //   language = 4;
-    // }
 
     if (pathOption === "1"){
       language += 1;
@@ -53,10 +40,12 @@ $(document).ready(function() {
 
 
     if (language >= 30){
+      $("#well-prompt").toggle();
       $("#answer").fadeToggle();
       $("#javaResult").fadeToggle();
       $("#csharpResult").fadeToggle();
     } else {
+      $("#well-prompt").toggle();
       $("#answer").fadeToggle();
       $("#rubyResult").fadeToggle();
       $("#phpResult").fadeToggle();
@@ -65,14 +54,6 @@ $(document).ready(function() {
 
 
     $("#questionnaire").toggle();
-    // $("#cssResult").fadeToggle();
-    // $("#rubyResult").fadeToggle();
-    // $("#phpResult").fadeToggle();
-    // $("#javaResult").fadeToggle();
-    // $("#csharpResult").fadeToggle();
-
-
-
     event.preventDefault();
   });
 });
