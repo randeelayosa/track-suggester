@@ -44,16 +44,13 @@ $(document).ready(function() {
       $("#answer").fadeToggle();
       $("#javaResult").fadeToggle();
       $("#csharpResult").fadeToggle();
-    } else if (language <= 20){
+    } else {
       $("#well-prompt").toggle();
       $("#answer").fadeToggle();
       $("#rubyResult").fadeToggle();
       $("#phpResult").fadeToggle();
       $("#cssResult").fadeToggle();
-    } else if (language === 0){
-      alert("Please choose an option from each menu.");
     }
-
 
     $("#questionnaire").toggle();
     event.preventDefault();
