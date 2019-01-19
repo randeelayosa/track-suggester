@@ -10,7 +10,7 @@ _This webpage an interactive site that gathers user input to evaluate and show a
 
 ## Setup/Installation Requirements
 
-* _Go to this link to view the page on GitHub "https://randeelayosa.github.io/{repo name}"_
+* _Go to this link to view the page on GitHub "https://randeelayosa.github.io/track-suggester"_
 * _Or, you can clone this repository "https://github.com/randeelayosa/track-suggester.git"_
 * _Open the repository in the text editor of your preference. (i.e. Atom.)_
 * _Open the file in the web browser fo your preference._
