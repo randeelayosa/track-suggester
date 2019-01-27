@@ -54,7 +54,17 @@ h6 {
   margin: 40px;
   padding: 20px;
 }
-#well-prompt{
+#frontend-prompt{
+  background-color: white;
+  border: 4px solid gray;
+  border-radius: 10px;
+  margin: 40px;
+  padding: 20px;
+  width: 75%;
+  height: auto;
+  display: none;
+}
+#backend-prompt{
   background-color: white;
   border: 4px solid gray;
   border-radius: 10px;

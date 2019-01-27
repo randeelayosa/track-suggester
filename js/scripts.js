@@ -32,27 +32,26 @@ $(document).ready(function() {
       language += 10;
     }
 
-    if (activityOption === "1"){
-      language += 1;
-    } else {
+    if (activityOption === "10"){
       language += 10;
-    }
-
-
-    if (language >= 30){
-      $("#well-prompt").toggle();
-      $("#answer").fadeToggle();
-      $("#javaResult").fadeToggle();
-      $("#csharpResult").fadeToggle();
     } else {
-      $("#well-prompt").toggle();
-      $("#answer").fadeToggle();
-      $("#rubyResult").fadeToggle();
-      $("#phpResult").fadeToggle();
-      $("#cssResult").fadeToggle();
+      language += 100;
     }
 
     $("#questionnaire").toggle();
     event.preventDefault();
+
+    if (language >= 100){
+      $("#frontend-prompt").toggle();
+      $("#cssResult").fadeToggle();
+    } else if (language >= 30){
+      $("#backend-prompt").toggle();
+      $("#javaResult").fadeToggle();
+      $("#csharpResult").fadeToggle();
+    } else {
+      $("#backend-prompt").toggle();
+      $("#rubyResult").fadeToggle();
+      $("#phpResult").fadeToggle();
+    }
   });
 });
